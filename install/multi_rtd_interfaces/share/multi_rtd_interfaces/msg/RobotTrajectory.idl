@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multi_rtd_interfaces/msg/RobotTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+
+module multi_rtd_interfaces {
+  module msg {
+    struct RobotTrajectory {
+      string robot_name;
+
+      trajectory_msgs::msg::JointTrajectory trajectory;
+    };
+  };
+};

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../../build/multi_rtd/multi_rtd.egg-info/PKG-INFO
+writing dependency_links to ../../../build/multi_rtd/multi_rtd.egg-info/dependency_links.txt
+writing entry points to ../../../build/multi_rtd/multi_rtd.egg-info/entry_points.txt
+writing requirements to ../../../build/multi_rtd/multi_rtd.egg-info/requires.txt
+writing top-level names to ../../../build/multi_rtd/multi_rtd.egg-info/top_level.txt
+reading manifest file '../../../build/multi_rtd/multi_rtd.egg-info/SOURCES.txt'
+writing manifest file '../../../build/multi_rtd/multi_rtd.egg-info/SOURCES.txt'
+running build
+running build_py
+copying multi_rtd/simple_planner.py -> /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build/lib/multi_rtd
+running install
+running install_lib
+copying /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build/lib/multi_rtd/simple_planner.py -> /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd
+byte-compiling /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd/simple_planner.py to simple_planner.cpython-36.pyc
+running install_data
+running install_egg_info
+removing '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../../build/multi_rtd/multi_rtd.egg-info to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd-0.0.0-py3.6.egg-info
+running install_scripts
+Installing multi_planner script to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/multi_rtd
+Installing simple_planner script to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/multi_rtd
+writing list of installed files to '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log'

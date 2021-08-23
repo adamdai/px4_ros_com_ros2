@@ -1,0 +1,33 @@
+[35m[1mScanning dependencies of target offboard_control[0m
+[ 50%] Built target trajectory_logger
+[ 75%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/offboard/offboard_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable offboard_control[0m
+[100%] Built target offboard_control
+[100%] Built target trajectory_logger
+[100%] Built target offboard_control
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/offboard_ibqr/offboard_control
+-- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/offboard_ibqr/offboard_control" to ""
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/offboard_ibqr/trajectory_logger
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/EnableC++XX.cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/EnableSanitizers.cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/GenerateMicroRTPSAgent.cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/ament_index/resource_index/package_run_dependencies/offboard_ibqr
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/ament_index/resource_index/parent_prefix_path/offboard_ibqr
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/ament_prefix_path.sh
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/path.sh
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/path.dsv
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.bash
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.sh
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.zsh
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.dsv
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.dsv
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/ament_index/resource_index/packages/offboard_ibqr
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/offboard_ibqrConfig.cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/offboard_ibqrConfig-version.cmake
+-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.xml

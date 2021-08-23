@@ -1,0 +1,60 @@
+[0.149s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[0.446s] [  2%] Built target new_offboard_control
+[0.755s] [ 91%] Built target micrortps_agent
+[0.927s] [ 93%] Built target frame_transforms
+[1.055s] [ 95%] Built target sensor_combined_listener
+[1.164s] [ 97%] Built target vehicle_gps_position_listener
+[1.279s] [ 98%] Built target debug_vect_advertiser
+[1.383s] [100%] Built target offboard_control
+[1.429s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[2.660s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com --target install -- -j4 -l4
+[2.917s] [  2%] Built target new_offboard_control
+[3.157s] [ 91%] Built target micrortps_agent
+[3.267s] [ 93%] Built target frame_transforms
+[3.368s] [ 95%] Built target sensor_combined_listener
+[3.475s] [ 97%] Built target vehicle_gps_position_listener
+[3.586s] [ 98%] Built target debug_vect_advertiser
+[3.689s] [100%] Built target offboard_control
+[3.772s] [36mInstall the project...[0m
+[3.804s] -- Install configuration: "RELWITHDEBINFO"
+[3.806s] -- Execute custom install script
+[3.809s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[3.812s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[3.814s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[3.816s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[3.818s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/px4_ros_com/new_offboard_control
+[3.820s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[3.821s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[3.824s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[3.829s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/EnableC++XX.cmake
+[3.830s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/EnableSanitizers.cmake
+[3.832s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/GenerateMicroRTPSAgent.cmake
+[3.833s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/launch/sensor_combined_listener.launch.py
+[3.837s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/__init__.py
+[3.842s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/pipeline_io_test.py
+[3.844s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/test_input.py
+[3.845s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/test/test_output.py
+[3.846s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[3.847s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[3.848s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[3.849s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[3.851s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[3.852s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[3.854s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[3.856s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[3.857s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[3.858s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[3.860s] -- Symlinking: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.dsv
+[3.903s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[3.904s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.906s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_interfaces-extras.cmake
+[3.907s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.909s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[3.910s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[3.912s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[3.913s] -- Up-to-date symlink: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.xml
+[3.918s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/libframe_transforms.so
+[3.919s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin/micrortps_agent
+[3.943s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[3.945s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-relwithdebinfo.cmake
+[3.946s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com --target install -- -j4 -l4

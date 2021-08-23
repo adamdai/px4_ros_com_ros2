@@ -1,0 +1,41 @@
+[0.113s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr -- -j4 -l4
+[0.305s] [35m[1mScanning dependencies of target offboard_control[0m
+[0.408s] [ 50%] Built target trajectory_logger
+[0.484s] [ 75%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/offboard/offboard_control.cpp.o[0m
+[6.541s] [01m[K/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/offboard_ibqr/src/offboard/offboard_control.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint() const[m[K’:
+[6.541s] [01m[K/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/offboard_ibqr/src/offboard/offboard_control.cpp:294:120:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[6.542s]    if ( (timer_callback_counter % (TRAJ_TIME_INTERVAL/period.count()) == 0) && ((traj_index < max_index) && ([01;35m[Ktraj_index >= 0[m[K)) ) // traj_index will only be less than 0 if no trajectory has ever been received
+[6.542s]                                                                                                              [01;35m[K~~~~~~~~~~~^~~~[m[K
+[26.421s] [100%] [32m[1mLinking CXX executable offboard_control[0m
+[27.982s] [100%] Built target offboard_control
+[28.027s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr -- -j4 -l4
+[28.152s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr --target install -- -j4 -l4
+[28.375s] [100%] Built target offboard_control
+[28.375s] [100%] Built target trajectory_logger
+[28.438s] [36mInstall the project...[0m
+[28.466s] -- Install configuration: ""
+[28.467s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/offboard_ibqr/offboard_control
+[28.501s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/offboard_ibqr/offboard_control" to ""
+[28.502s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/offboard_ibqr/trajectory_logger
+[28.503s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake
+[28.503s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/EnableC++XX.cmake
+[28.504s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/EnableSanitizers.cmake
+[28.504s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/GenerateMicroRTPSAgent.cmake
+[28.505s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/ament_index/resource_index/package_run_dependencies/offboard_ibqr
+[28.505s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/ament_index/resource_index/parent_prefix_path/offboard_ibqr
+[28.506s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/ament_prefix_path.sh
+[28.506s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/ament_prefix_path.dsv
+[28.506s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/path.sh
+[28.507s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/environment/path.dsv
+[28.507s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.bash
+[28.508s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.sh
+[28.508s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.zsh
+[28.509s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/local_setup.dsv
+[28.509s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.dsv
+[28.509s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/ament_index/resource_index/packages/offboard_ibqr
+[28.510s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.510s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.511s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/offboard_ibqrConfig.cmake
+[28.511s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/cmake/offboard_ibqrConfig-version.cmake
+[28.512s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.xml
+[28.521s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr --target install -- -j4 -l4

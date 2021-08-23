@@ -1,0 +1,16 @@
+[0.082s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces -- -j4 -l4
+[0.261s] [  3%] Built target multi_rtd_interfaces__cpp
+[0.272s] [ 13%] Built target multi_rtd_interfaces__rosidl_generator_c
+[0.360s] [ 24%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_cpp
+[0.364s] [ 34%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_c
+[0.385s] [ 44%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.492s] [ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_cpp
+[0.493s] [ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c
+[0.603s] [ 75%] Built target multi_rtd_interfaces__rosidl_typesupport_c
+[0.676s] [ 75%] Built target multi_rtd_interfaces
+[0.738s] make[1]: *** wait: No child processes.  Stop.
+[0.739s] make[1]: *** Waiting for unfinished jobs....
+[0.740s] make[1]: *** wait: No child processes.  Stop.
+[0.740s] make: *** [all] Error 2
+[0.742s] Makefile:140: recipe for target 'all' failed
+[0.758s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces -- -j4 -l4

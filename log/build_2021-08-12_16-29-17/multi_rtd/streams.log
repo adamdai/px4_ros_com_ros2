@@ -1,0 +1,25 @@
+[1.435s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/multi_rtd build --build-base /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build install --prefix /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd --record /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log --single-version-externally-managed
+[2.713s] running egg_info
+[2.717s] writing ../../../build/multi_rtd/multi_rtd.egg-info/PKG-INFO
+[2.720s] writing dependency_links to ../../../build/multi_rtd/multi_rtd.egg-info/dependency_links.txt
+[2.721s] writing entry points to ../../../build/multi_rtd/multi_rtd.egg-info/entry_points.txt
+[2.721s] writing requirements to ../../../build/multi_rtd/multi_rtd.egg-info/requires.txt
+[2.722s] writing top-level names to ../../../build/multi_rtd/multi_rtd.egg-info/top_level.txt
+[2.916s] reading manifest file '../../../build/multi_rtd/multi_rtd.egg-info/SOURCES.txt'
+[2.925s] writing manifest file '../../../build/multi_rtd/multi_rtd.egg-info/SOURCES.txt'
+[2.925s] running build
+[2.926s] running build_py
+[2.928s] copying multi_rtd/simple_planner.py -> /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build/lib/multi_rtd
+[2.930s] running install
+[2.932s] running install_lib
+[2.938s] copying /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build/lib/multi_rtd/simple_planner.py -> /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd
+[2.943s] byte-compiling /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd/simple_planner.py to simple_planner.cpython-36.pyc
+[2.945s] running install_data
+[2.948s] running install_egg_info
+[2.962s] removing '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd-0.0.0-py3.6.egg-info' (and everything under it)
+[2.963s] Copying ../../../build/multi_rtd/multi_rtd.egg-info to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd-0.0.0-py3.6.egg-info
+[2.969s] running install_scripts
+[3.061s] Installing multi_planner script to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/multi_rtd
+[3.062s] Installing simple_planner script to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/multi_rtd
+[3.064s] writing list of installed files to '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log'
+[3.176s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/multi_rtd build --build-base /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build install --prefix /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd --record /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log --single-version-externally-managed

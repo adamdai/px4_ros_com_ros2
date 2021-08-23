@@ -1,0 +1,6 @@
+{
+  "package_name": "multi_rtd_interfaces",
+  "non_idl_tuples": [
+    "/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd_interfaces:msg/RobotTrajectory.msg"
+  ]
+}

@@ -1,0 +1,422 @@
+[0.000000] (-) TimerEvent: {}
+[0.000914] (multi_rtd_interfaces) JobQueued: {'identifier': 'multi_rtd_interfaces', 'dependencies': OrderedDict()}
+[0.001171] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.002012] (multi_rtd) JobQueued: {'identifier': 'multi_rtd', 'dependencies': OrderedDict([('multi_rtd_interfaces', '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces')])}
+[0.002532] (offboard_ibqr) JobQueued: {'identifier': 'offboard_ibqr', 'dependencies': OrderedDict([('px4_msgs', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs')])}
+[0.003597] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs')])}
+[0.003791] (ros1_bridge) JobQueued: {'identifier': 'ros1_bridge', 'dependencies': OrderedDict([('multi_rtd_interfaces', '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces'), ('px4_msgs', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs')])}
+[0.003909] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.082664] (multi_rtd_interfaces) JobStarted: {'identifier': 'multi_rtd_interfaces'}
+[0.099791] (-) TimerEvent: {}
+[0.120555] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.123472] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.126604] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs', '--', '-j4', '-l4'], 'cwd': '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'navlab-tx2-4'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/navlab-tx2-4'), ('OLDPWD', '/home/navlab-tx2-4'), ('DESKTOP_SESSION', 'unity'), ('GRADLE_HOME', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '5862'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'navlab-tx2-4'), ('GTK_IM_MODULE', 'ibus'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:40073'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'navlab-tx2-4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current/bin:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/eloquent/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/navlab-tx2-4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd83ca7ad3f48436f8cbd77c8fc361ece'), ('SDKMAN_CANDIDATES_DIR', '/home/navlab-tx2-4/.sdkman/candidates'), ('SESSION_MANAGER', 'local/navlabtx24-desktop:@/tmp/.ICE-unix/6572,unix/navlabtx24-desktop:/tmp/.ICE-unix/6572'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebbf7c9b_5bea_4ab8_9608_54302bffd978'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('SDKMAN_DIR', '/home/navlab-tx2-4/.sdkman'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SDKMAN_PLATFORM', 'LinuxARM64'), ('AMENT_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('PYTHONPATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent')]), 'shell': False}
+[0.154443] (multi_rtd_interfaces) JobProgress: {'identifier': 'multi_rtd_interfaces', 'progress': 'cmake'}
+[0.157998] (multi_rtd_interfaces) JobProgress: {'identifier': 'multi_rtd_interfaces', 'progress': 'build'}
+[0.159271] (multi_rtd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'navlab-tx2-4'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/navlab-tx2-4'), ('OLDPWD', '/home/navlab-tx2-4'), ('DESKTOP_SESSION', 'unity'), ('GRADLE_HOME', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '5862'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'navlab-tx2-4'), ('GTK_IM_MODULE', 'ibus'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:40073'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'navlab-tx2-4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current/bin:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/eloquent/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/navlab-tx2-4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd83ca7ad3f48436f8cbd77c8fc361ece'), ('SDKMAN_CANDIDATES_DIR', '/home/navlab-tx2-4/.sdkman/candidates'), ('SESSION_MANAGER', 'local/navlabtx24-desktop:@/tmp/.ICE-unix/6572,unix/navlabtx24-desktop:/tmp/.ICE-unix/6572'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebbf7c9b_5bea_4ab8_9608_54302bffd978'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('SDKMAN_DIR', '/home/navlab-tx2-4/.sdkman'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SDKMAN_PLATFORM', 'LinuxARM64'), ('AMENT_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('PYTHONPATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent')]), 'shell': False}
+[0.200020] (-) TimerEvent: {}
+[0.300907] (-) TimerEvent: {}
+[0.355489] (multi_rtd_interfaces) StdoutLine: {'line': b'[  3%] Built target multi_rtd_interfaces__cpp\n'}
+[0.379076] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 13%] Built target multi_rtd_interfaces__rosidl_generator_c\n'}
+[0.401213] (-) TimerEvent: {}
+[0.462522] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 24%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.477247] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 34%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.485877] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 44%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.501401] (-) TimerEvent: {}
+[0.585352] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.586114] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_cpp\n'}
+[0.601590] (-) TimerEvent: {}
+[0.689452] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 75%] Built target multi_rtd_interfaces__rosidl_typesupport_c\n'}
+[0.701779] (-) TimerEvent: {}
+[0.765773] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 75%] Built target multi_rtd_interfaces\n'}
+[0.801962] (-) TimerEvent: {}
+[0.844428] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 79%] Built target multi_rtd_interfaces__py\n'}
+[0.902139] (-) TimerEvent: {}
+[0.947743] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 86%] Built target multi_rtd_interfaces__python\n'}
+[1.002328] (-) TimerEvent: {}
+[1.056961] (multi_rtd_interfaces) StdoutLine: {'line': b'[100%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.057731] (multi_rtd_interfaces) StdoutLine: {'line': b'[100%] Built target multi_rtd_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.095904] (multi_rtd_interfaces) CommandEnded: {'returncode': 0}
+[1.103652] (-) TimerEvent: {}
+[1.206653] (-) TimerEvent: {}
+[1.307579] (-) TimerEvent: {}
+[1.310073] (multi_rtd_interfaces) JobProgress: {'identifier': 'multi_rtd_interfaces', 'progress': 'install'}
+[1.352548] (multi_rtd_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'navlab-tx2-4'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/navlab-tx2-4'), ('OLDPWD', '/home/navlab-tx2-4'), ('DESKTOP_SESSION', 'unity'), ('GRADLE_HOME', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '5862'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'navlab-tx2-4'), ('GTK_IM_MODULE', 'ibus'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:40073'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'navlab-tx2-4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current/bin:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/eloquent/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/navlab-tx2-4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd83ca7ad3f48436f8cbd77c8fc361ece'), ('SDKMAN_CANDIDATES_DIR', '/home/navlab-tx2-4/.sdkman/candidates'), ('SESSION_MANAGER', 'local/navlabtx24-desktop:@/tmp/.ICE-unix/6572,unix/navlabtx24-desktop:/tmp/.ICE-unix/6572'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebbf7c9b_5bea_4ab8_9608_54302bffd978'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('SDKMAN_DIR', '/home/navlab-tx2-4/.sdkman'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SDKMAN_PLATFORM', 'LinuxARM64'), ('AMENT_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('PYTHONPATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent')]), 'shell': False}
+[1.407886] (-) TimerEvent: {}
+[1.508848] (-) TimerEvent: {}
+[1.586371] (multi_rtd_interfaces) StdoutLine: {'line': b'[  3%] Built target multi_rtd_interfaces__cpp\n'}
+[1.604895] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 13%] Built target multi_rtd_interfaces__rosidl_generator_c\n'}
+[1.609046] (-) TimerEvent: {}
+[1.686013] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target px4_msgs__cpp\n'}
+[1.709252] (-) TimerEvent: {}
+[1.715181] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 24%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.730433] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 34%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.747726] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 44%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.795821] (px4_msgs) StdoutLine: {'line': b'[ 12%] Built target px4_msgs__rosidl_generator_c\n'}
+[1.809461] (-) TimerEvent: {}
+[1.902967] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 55%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.909655] (-) TimerEvent: {}
+[1.950584] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_cpp\n'}
+[2.009851] (-) TimerEvent: {}
+[2.032144] (px4_msgs) StdoutLine: {'line': b'[ 25%] Built target px4_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.048039] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 75%] Built target multi_rtd_interfaces__rosidl_typesupport_c\n'}
+[2.095729] (px4_msgs) StdoutLine: {'line': b'[ 37%] Built target px4_msgs__rosidl_typesupport_introspection_c\n'}
+[2.110042] (-) TimerEvent: {}
+[2.124829] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 75%] Built target multi_rtd_interfaces\n'}
+[2.140479] (px4_msgs) StdoutLine: {'line': b'[ 50%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.202970] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 79%] Built target multi_rtd_interfaces__py\n'}
+[2.210227] (-) TimerEvent: {}
+[2.311241] (-) TimerEvent: {}
+[2.318075] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 86%] Built target multi_rtd_interfaces__python\n'}
+[2.411427] (-) TimerEvent: {}
+[2.429248] (multi_rtd_interfaces) StdoutLine: {'line': b'[ 93%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.444021] (multi_rtd_interfaces) StdoutLine: {'line': b'[100%] Built target multi_rtd_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.464838] (px4_msgs) StdoutLine: {'line': b'[ 63%] Built target px4_msgs__rosidl_typesupport_cpp\n'}
+[2.501318] (px4_msgs) StdoutLine: {'line': b'[ 75%] Built target px4_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.511608] (-) TimerEvent: {}
+[2.512469] (multi_rtd_interfaces) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[2.544003] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.545150] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/rosidl_interfaces/multi_rtd_interfaces\n'}
+[2.545988] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces\n'}
+[2.546655] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg\n'}
+[2.547155] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__struct.hpp\n'}
+[2.547637] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__traits.hpp\n'}
+[2.548018] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory.hpp\n'}
+[2.548692] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces\n'}
+[2.549432] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg\n'}
+[2.549959] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory.h\n'}
+[2.550641] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__struct.h\n'}
+[2.551622] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__type_support.h\n'}
+[2.552339] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.553251] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__functions.c\n'}
+[2.553940] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__functions.h\n'}
+[2.554637] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/library_path.sh\n'}
+[2.555316] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/library_path.dsv\n'}
+[2.555817] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_generator_c.so\n'}
+[2.556252] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_c.so\n'}
+[2.557454] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.558017] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces\n'}
+[2.558405] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg\n'}
+[2.559058] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__type_support.c\n'}
+[2.559527] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.560015] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_introspection_c.h\n'}
+[2.560497] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.560941] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces\n'}
+[2.561340] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg\n'}
+[2.561723] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.562099] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__type_support.cpp\n'}
+[2.562492] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.562991] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces\n'}
+[2.563440] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg\n'}
+[2.563822] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.567322] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_fastrtps_c.h\n'}
+[2.568060] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.568947] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces\n'}
+[2.569552] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg\n'}
+[2.570080] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.570514] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.571023] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/dds_fastrtps\n'}
+[2.571473] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.571910] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/pythonpath.sh\n'}
+[2.572472] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/pythonpath.dsv\n'}
+[2.573228] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/__init__.py\n'}
+[2.611764] (-) TimerEvent: {}
+[2.712589] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg\n'}
+[2.713463] (-) TimerEvent: {}
+[2.714046] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg/_robot_trajectory_s.c\n'}
+[2.714621] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg/_robot_trajectory.py\n'}
+[2.715052] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg/__init__.py\n'}
+[2.715459] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.715933] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[2.717359] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__python.so\n'}
+[2.718209] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/msg/RobotTrajectory.idl\n'}
+[2.719365] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/msg/RobotTrajectory.msg\n'}
+[2.719963] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/package_run_dependencies/multi_rtd_interfaces\n'}
+[2.720508] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/parent_prefix_path/multi_rtd_interfaces\n'}
+[2.721514] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/ament_prefix_path.sh\n'}
+[2.722168] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.722689] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/path.sh\n'}
+[2.723346] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/path.dsv\n'}
+[2.724015] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.bash\n'}
+[2.724624] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.sh\n'}
+[2.725111] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.zsh\n'}
+[2.725555] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.dsv\n'}
+[2.726000] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.dsv\n'}
+[2.726448] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/packages/multi_rtd_interfaces\n'}
+[2.726941] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.727408] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.727834] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.728264] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.728858] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/multi_rtd_interfacesConfig.cmake\n'}
+[2.729401] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/multi_rtd_interfacesConfig-version.cmake\n'}
+[2.729893] (multi_rtd_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.xml\n'}
+[2.733924] (multi_rtd_interfaces) CommandEnded: {'returncode': 0}
+[2.761159] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__rosidl_typesupport_c\n'}
+[2.813635] (-) TimerEvent: {}
+[2.845439] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs\n'}
+[2.913818] (-) TimerEvent: {}
+[2.958062] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__py\n'}
+[3.014132] (-) TimerEvent: {}
+[3.081109] (multi_rtd_interfaces) JobEnded: {'identifier': 'multi_rtd_interfaces', 'rc': 0}
+[3.087890] (multi_rtd) JobStarted: {'identifier': 'multi_rtd'}
+[3.120070] (-) TimerEvent: {}
+[3.223572] (-) TimerEvent: {}
+[3.324724] (-) TimerEvent: {}
+[3.425471] (-) TimerEvent: {}
+[3.520178] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__python\n'}
+[3.525654] (-) TimerEvent: {}
+[3.626437] (-) TimerEvent: {}
+[3.692796] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.699237] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_c__pyext\n'}
+[3.726637] (-) TimerEvent: {}
+[3.827489] (-) TimerEvent: {}
+[3.928177] (-) TimerEvent: {}
+[4.028855] (-) TimerEvent: {}
+[4.129692] (-) TimerEvent: {}
+[4.230822] (-) TimerEvent: {}
+[4.331549] (-) TimerEvent: {}
+[4.425130] (px4_msgs) CommandEnded: {'returncode': 0}
+[4.434548] (-) TimerEvent: {}
+[4.451663] (multi_rtd) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/multi_rtd', 'build', '--build-base', '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build', 'install', '--prefix', '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd', '--record', '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log', '--single-version-externally-managed'], 'cwd': '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'SDKMAN_VERSION': '5.11.0+644', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'navlab-tx2-4', 'UNITY_HAS_3D_SUPPORT': 'true', 'TEXTDOMAIN': 'im-config', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/navlab-tx2-4', 'OLDPWD': '/home/navlab-tx2-4', 'DESKTOP_SESSION': 'unity', 'GRADLE_HOME': '/home/navlab-tx2-4/.sdkman/candidates/gradle/current', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '5862', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/navlab-tx2-4/px4_ros_com_ros2/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'navlab-tx2-4', 'GTK_IM_MODULE': 'ibus', 'SDKMAN_CANDIDATES_API': 'https://api.sdkman.io/2', 'JOURNAL_STREAM': '8:40073', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'ROS_VERSION': '2', 'USERNAME': 'navlab-tx2-4', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/home/navlab-tx2-4/.sdkman/candidates/gradle/current/bin:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/eloquent/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/navlab-tx2-4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': 'd83ca7ad3f48436f8cbd77c8fc361ece', 'SDKMAN_CANDIDATES_DIR': '/home/navlab-tx2-4/.sdkman/candidates', 'SESSION_MANAGER': 'local/navlabtx24-desktop:@/tmp/.ICE-unix/6572,unix/navlabtx24-desktop:/tmp/.ICE-unix/6572', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ebbf7c9b_5bea_4ab8_9608_54302bffd978', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'unity', 'SDKMAN_DIR': '/home/navlab-tx2-4/.sdkman', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.89', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SDKMAN_PLATFORM': 'LinuxARM64', 'AMENT_PREFIX_PATH': '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'PYTHONPATH': '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'COLCON': '1', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs'}, 'shell': False}
+[4.533420] (-) TimerEvent: {}
+[4.634648] (-) TimerEvent: {}
+[4.735638] (-) TimerEvent: {}
+[4.836580] (-) TimerEvent: {}
+[4.937304] (-) TimerEvent: {}
+[5.038029] (-) TimerEvent: {}
+[5.138730] (-) TimerEvent: {}
+[5.239459] (-) TimerEvent: {}
+[5.340169] (-) TimerEvent: {}
+[5.440895] (-) TimerEvent: {}
+[5.541675] (-) TimerEvent: {}
+[5.610633] (multi_rtd) StdoutLine: {'line': b'running egg_info\n'}
+[5.614116] (multi_rtd) StdoutLine: {'line': b'writing ../../../build/multi_rtd/multi_rtd.egg-info/PKG-INFO\n'}
+[5.615031] (multi_rtd) StdoutLine: {'line': b'writing dependency_links to ../../../build/multi_rtd/multi_rtd.egg-info/dependency_links.txt\n'}
+[5.615739] (multi_rtd) StdoutLine: {'line': b'writing entry points to ../../../build/multi_rtd/multi_rtd.egg-info/entry_points.txt\n'}
+[5.616332] (multi_rtd) StdoutLine: {'line': b'writing requirements to ../../../build/multi_rtd/multi_rtd.egg-info/requires.txt\n'}
+[5.616939] (multi_rtd) StdoutLine: {'line': b'writing top-level names to ../../../build/multi_rtd/multi_rtd.egg-info/top_level.txt\n'}
+[5.641841] (-) TimerEvent: {}
+[5.742541] (-) TimerEvent: {}
+[5.767526] (multi_rtd) StdoutLine: {'line': b"reading manifest file '../../../build/multi_rtd/multi_rtd.egg-info/SOURCES.txt'\n"}
+[5.773858] (multi_rtd) StdoutLine: {'line': b"writing manifest file '../../../build/multi_rtd/multi_rtd.egg-info/SOURCES.txt'\n"}
+[5.774955] (multi_rtd) StdoutLine: {'line': b'running build\n'}
+[5.776035] (multi_rtd) StdoutLine: {'line': b'running build_py\n'}
+[5.777682] (multi_rtd) StdoutLine: {'line': b'running install\n'}
+[5.779373] (multi_rtd) StdoutLine: {'line': b'running install_lib\n'}
+[5.784931] (multi_rtd) StdoutLine: {'line': b'running install_data\n'}
+[5.787019] (multi_rtd) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.795575] (multi_rtd) StdoutLine: {'line': b"removing '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[5.796767] (multi_rtd) StdoutLine: {'line': b'Copying ../../../build/multi_rtd/multi_rtd.egg-info to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages/multi_rtd-0.0.0-py3.6.egg-info\n'}
+[5.800483] (multi_rtd) StdoutLine: {'line': b'running install_scripts\n'}
+[5.842705] (-) TimerEvent: {}
+[5.872054] (multi_rtd) StdoutLine: {'line': b'Installing multi_planner script to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/multi_rtd\n'}
+[5.873470] (multi_rtd) StdoutLine: {'line': b'Installing simple_planner script to /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/multi_rtd\n'}
+[5.874839] (multi_rtd) StdoutLine: {'line': b"writing list of installed files to '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log'\n"}
+[5.943106] (-) TimerEvent: {}
+[5.979503] (multi_rtd) CommandEnded: {'returncode': 0}
+[6.012852] (multi_rtd) JobEnded: {'identifier': 'multi_rtd', 'rc': 0}
+[6.043281] (-) TimerEvent: {}
+[6.143982] (-) TimerEvent: {}
+[6.244749] (-) TimerEvent: {}
+[6.345702] (-) TimerEvent: {}
+[6.447135] (-) TimerEvent: {}
+[6.548159] (-) TimerEvent: {}
+[6.648866] (-) TimerEvent: {}
+[6.749710] (-) TimerEvent: {}
+[6.850676] (-) TimerEvent: {}
+[6.951550] (-) TimerEvent: {}
+[7.053289] (-) TimerEvent: {}
+[7.154402] (-) TimerEvent: {}
+[7.255200] (-) TimerEvent: {}
+[7.355992] (-) TimerEvent: {}
+[7.456942] (-) TimerEvent: {}
+[7.557625] (-) TimerEvent: {}
+[7.658597] (-) TimerEvent: {}
+[7.759421] (-) TimerEvent: {}
+[7.860307] (-) TimerEvent: {}
+[7.961063] (-) TimerEvent: {}
+[8.062029] (-) TimerEvent: {}
+[8.163055] (-) TimerEvent: {}
+[8.264213] (-) TimerEvent: {}
+[8.365108] (-) TimerEvent: {}
+[8.465860] (-) TimerEvent: {}
+[8.566661] (-) TimerEvent: {}
+[8.667583] (-) TimerEvent: {}
+[8.768355] (-) TimerEvent: {}
+[8.869073] (-) TimerEvent: {}
+[8.970215] (-) TimerEvent: {}
+[9.071114] (-) TimerEvent: {}
+[9.171801] (-) TimerEvent: {}
+[9.272759] (-) TimerEvent: {}
+[9.374744] (-) TimerEvent: {}
+[9.475749] (-) TimerEvent: {}
+[9.576578] (-) TimerEvent: {}
+[9.677802] (-) TimerEvent: {}
+[9.778498] (-) TimerEvent: {}
+[9.879332] (-) TimerEvent: {}
+[9.980411] (-) TimerEvent: {}
+[10.081211] (-) TimerEvent: {}
+[10.182307] (-) TimerEvent: {}
+[10.283120] (-) TimerEvent: {}
+[10.384269] (-) TimerEvent: {}
+[10.485138] (-) TimerEvent: {}
+[10.586455] (-) TimerEvent: {}
+[10.687480] (-) TimerEvent: {}
+[10.788403] (-) TimerEvent: {}
+[10.889368] (-) TimerEvent: {}
+[10.990869] (-) TimerEvent: {}
+[11.091695] (-) TimerEvent: {}
+[11.193063] (-) TimerEvent: {}
+[11.293807] (-) TimerEvent: {}
+[11.394704] (-) TimerEvent: {}
+[11.495586] (-) TimerEvent: {}
+[11.596596] (-) TimerEvent: {}
+[11.697285] (-) TimerEvent: {}
+[11.798413] (-) TimerEvent: {}
+[11.899881] (-) TimerEvent: {}
+[12.001097] (-) TimerEvent: {}
+[12.102132] (-) TimerEvent: {}
+[12.203148] (-) TimerEvent: {}
+[12.304607] (-) TimerEvent: {}
+[12.405897] (-) TimerEvent: {}
+[12.506557] (-) TimerEvent: {}
+[12.607309] (-) TimerEvent: {}
+[12.707998] (-) TimerEvent: {}
+[12.808765] (-) TimerEvent: {}
+[12.909444] (-) TimerEvent: {}
+[13.010219] (-) TimerEvent: {}
+[13.111280] (-) TimerEvent: {}
+[13.211999] (-) TimerEvent: {}
+[13.312748] (-) TimerEvent: {}
+[13.413442] (-) TimerEvent: {}
+[13.514181] (-) TimerEvent: {}
+[13.615185] (-) TimerEvent: {}
+[13.715953] (-) TimerEvent: {}
+[13.816908] (-) TimerEvent: {}
+[13.917797] (-) TimerEvent: {}
+[14.019298] (-) TimerEvent: {}
+[14.120026] (-) TimerEvent: {}
+[14.221045] (-) TimerEvent: {}
+[14.322559] (-) TimerEvent: {}
+[14.423366] (-) TimerEvent: {}
+[14.524059] (-) TimerEvent: {}
+[14.624853] (-) TimerEvent: {}
+[14.725590] (-) TimerEvent: {}
+[14.826418] (-) TimerEvent: {}
+[14.927103] (-) TimerEvent: {}
+[15.027827] (-) TimerEvent: {}
+[15.128662] (-) TimerEvent: {}
+[15.229345] (-) TimerEvent: {}
+[15.330286] (-) TimerEvent: {}
+[15.431096] (-) TimerEvent: {}
+[15.531771] (-) TimerEvent: {}
+[15.632544] (-) TimerEvent: {}
+[15.733385] (-) TimerEvent: {}
+[15.834145] (-) TimerEvent: {}
+[15.934915] (-) TimerEvent: {}
+[16.035857] (-) TimerEvent: {}
+[16.136661] (-) TimerEvent: {}
+[16.237974] (-) TimerEvent: {}
+[16.339363] (-) TimerEvent: {}
+[16.440157] (-) TimerEvent: {}
+[16.541491] (-) TimerEvent: {}
+[16.642594] (-) TimerEvent: {}
+[16.743444] (-) TimerEvent: {}
+[16.844454] (-) TimerEvent: {}
+[16.945480] (-) TimerEvent: {}
+[17.046220] (-) TimerEvent: {}
+[17.147073] (-) TimerEvent: {}
+[17.247830] (-) TimerEvent: {}
+[17.348545] (-) TimerEvent: {}
+[17.449345] (-) TimerEvent: {}
+[17.550288] (-) TimerEvent: {}
+[17.651686] (-) TimerEvent: {}
+[17.752688] (-) TimerEvent: {}
+[17.853704] (-) TimerEvent: {}
+[17.954456] (-) TimerEvent: {}
+[18.055497] (-) TimerEvent: {}
+[18.156801] (-) TimerEvent: {}
+[18.257548] (-) TimerEvent: {}
+[18.358446] (-) TimerEvent: {}
+[18.459375] (-) TimerEvent: {}
+[18.560133] (-) TimerEvent: {}
+[18.661179] (-) TimerEvent: {}
+[18.762162] (-) TimerEvent: {}
+[18.863277] (-) TimerEvent: {}
+[18.963965] (-) TimerEvent: {}
+[19.065104] (-) TimerEvent: {}
+[19.165981] (-) TimerEvent: {}
+[19.267288] (-) TimerEvent: {}
+[19.368527] (-) TimerEvent: {}
+[19.471342] (-) TimerEvent: {}
+[19.572177] (-) TimerEvent: {}
+[19.673027] (-) TimerEvent: {}
+[19.773757] (-) TimerEvent: {}
+[19.875222] (-) TimerEvent: {}
+[19.975951] (-) TimerEvent: {}
+[20.076668] (-) TimerEvent: {}
+[20.177339] (-) TimerEvent: {}
+[20.278586] (-) TimerEvent: {}
+[20.379545] (-) TimerEvent: {}
+[20.480569] (-) TimerEvent: {}
+[20.581259] (-) TimerEvent: {}
+[20.681976] (-) TimerEvent: {}
+[20.782918] (-) TimerEvent: {}
+[20.883662] (-) TimerEvent: {}
+[20.984744] (-) TimerEvent: {}
+[21.085704] (-) TimerEvent: {}
+[21.186500] (-) TimerEvent: {}
+[21.287524] (-) TimerEvent: {}
+[21.388728] (-) TimerEvent: {}
+[21.489587] (-) TimerEvent: {}
+[21.542347] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'install'}
+[21.543921] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'navlab-tx2-4'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('TEXTDOMAIN', 'im-config'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/navlab-tx2-4'), ('OLDPWD', '/home/navlab-tx2-4'), ('DESKTOP_SESSION', 'unity'), ('GRADLE_HOME', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '5862'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'navlab-tx2-4'), ('GTK_IM_MODULE', 'ibus'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:40073'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('ROS_VERSION', '2'), ('USERNAME', 'navlab-tx2-4'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/home/navlab-tx2-4/.sdkman/candidates/gradle/current/bin:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/eloquent/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/navlab-tx2-4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', 'd83ca7ad3f48436f8cbd77c8fc361ece'), ('SDKMAN_CANDIDATES_DIR', '/home/navlab-tx2-4/.sdkman/candidates'), ('SESSION_MANAGER', 'local/navlabtx24-desktop:@/tmp/.ICE-unix/6572,unix/navlabtx24-desktop:/tmp/.ICE-unix/6572'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ebbf7c9b_5bea_4ab8_9608_54302bffd978'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'unity'), ('SDKMAN_DIR', '/home/navlab-tx2-4/.sdkman'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SDKMAN_PLATFORM', 'LinuxARM64'), ('AMENT_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('PYTHONPATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent')]), 'shell': False}
+[21.589976] (-) TimerEvent: {}
+[21.690838] (-) TimerEvent: {}
+[21.791637] (-) TimerEvent: {}
+[21.892384] (-) TimerEvent: {}
+[21.993127] (-) TimerEvent: {}
+[22.093830] (-) TimerEvent: {}
+[22.194533] (-) TimerEvent: {}
+[22.295319] (-) TimerEvent: {}
+[22.396482] (-) TimerEvent: {}
+[22.497187] (-) TimerEvent: {}
+[22.597900] (-) TimerEvent: {}
+[22.698682] (-) TimerEvent: {}
+[22.714912] (px4_msgs) StdoutLine: {'line': b"CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/px4_msgs__cpp.dir/all' failed\n"}
+[22.715691] (px4_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/px4_msgs__cpp.dir/all] Interrupt\n'}
+[22.716345] (px4_msgs) StdoutLine: {'line': b"CMakeFiles/px4_msgs__rosidl_generator_c.dir/build.make:9281: recipe for target 'CMakeFiles/px4_msgs__rosidl_generator_c.dir/depend' failed\n"}
+[22.716785] (px4_msgs) StderrLine: {'line': b'make[2]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/depend] Interrupt\n'}
+[22.717526] (px4_msgs) StdoutLine: {'line': b"CMakeFiles/Makefile2:283: recipe for target 'CMakeFiles/px4_msgs__rosidl_generator_c.dir/all' failed\n"}
+[22.718038] (px4_msgs) StderrLine: {'line': b'make[1]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Interrupt\n'}
+[22.718439] (px4_msgs) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[22.718914] (px4_msgs) StderrLine: {'line': b'make: *** [all] Interrupt\n'}
+[22.722035] (px4_msgs) CommandEnded: {'returncode': -2}
+[22.798970] (-) TimerEvent: {}
+[22.899845] (-) TimerEvent: {}
+[23.000737] (-) TimerEvent: {}
+[23.101513] (-) TimerEvent: {}
+[23.202341] (-) TimerEvent: {}
+[23.303201] (-) TimerEvent: {}
+[23.403952] (-) TimerEvent: {}
+[23.504733] (-) TimerEvent: {}
+[23.605453] (-) TimerEvent: {}
+[23.706142] (-) TimerEvent: {}
+[23.807496] (-) TimerEvent: {}
+[23.908176] (-) TimerEvent: {}
+[24.009165] (-) TimerEvent: {}
+[24.109824] (-) TimerEvent: {}
+[24.210612] (-) TimerEvent: {}
+[24.311598] (-) TimerEvent: {}
+[24.412444] (-) TimerEvent: {}
+[24.513160] (-) TimerEvent: {}
+[24.614200] (-) TimerEvent: {}
+[24.715143] (-) TimerEvent: {}
+[24.816021] (-) TimerEvent: {}
+[24.917113] (-) TimerEvent: {}
+[25.007740] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[25.017361] (-) TimerEvent: {}
+[25.022618] (offboard_ibqr) JobSkipped: {'identifier': 'offboard_ibqr'}
+[25.022937] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[25.023059] (ros1_bridge) JobSkipped: {'identifier': 'ros1_bridge'}
+[25.023154] (-) EventReactorShutdown: {}

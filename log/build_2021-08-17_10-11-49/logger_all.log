@@ -1,0 +1,498 @@
+[0.954s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.954s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f856ccbe0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f856ccbe0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f856ccf28>)
+[0.991s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.994s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/navlab-tx2-4/px4_ros_com_ros2'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.049s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.051s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.052s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.054s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[1.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[1.076s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extensions ['ignore', 'ignore_ament_install']
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'ignore'
+[1.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'ignore_ament_install'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extensions ['colcon_pkg']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'colcon_pkg'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extensions ['colcon_meta']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'colcon_meta'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extensions ['ros']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'ros'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extensions ['cmake', 'python']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'cmake'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'python'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extensions ['python_setup_py']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning) by extension 'python_setup_py'
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extensions ['ignore', 'ignore_ament_install']
+[1.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extension 'ignore'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extension 'ignore_ament_install'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extensions ['colcon_pkg']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extension 'colcon_pkg'
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extensions ['colcon_meta']
+[1.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extension 'colcon_meta'
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extensions ['ros']
+[1.082s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd) by extension 'ros'
+[1.086s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_multi_agent_planning/multi_rtd' with type 'ros.ament_python' and name 'multi_rtd'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extension 'ignore'
+[1.087s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extension 'ignore_ament_install'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extensions ['colcon_pkg']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extension 'colcon_pkg'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extensions ['colcon_meta']
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extension 'colcon_meta'
+[1.088s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extensions ['ros']
+[1.089s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/multi_rtd_interfaces) by extension 'ros'
+[1.093s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_multi_agent_planning/multi_rtd_interfaces' with type 'ros.ament_cmake' and name 'multi_rtd_interfaces'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extensions ['ignore', 'ignore_ament_install']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extension 'ignore'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extension 'ignore_ament_install'
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extensions ['colcon_pkg']
+[1.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extension 'colcon_pkg'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extensions ['colcon_meta']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extension 'colcon_meta'
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extensions ['ros']
+[1.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_multi_agent_planning/offboard_ibqr) by extension 'ros'
+[1.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_multi_agent_planning/offboard_ibqr' with type 'ros.ament_cmake' and name 'offboard_ibqr'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[1.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[1.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[1.110s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[1.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ignore', 'ignore_ament_install']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore_ament_install'
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_pkg']
+[1.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_pkg'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_meta']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_meta'
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ros']
+[1.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ros'
+[1.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros1_bridge' with type 'ros.ament_cmake' and name 'ros1_bridge'
+[1.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.238s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.240s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.240s] DEBUG:colcon.colcon_core.verb:Building package 'multi_rtd_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces', 'merge_install': False, 'path': '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.258s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.258s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs', 'merge_install': False, 'path': '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'cmake_args' from command line to 'None'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'cmake_target' from command line to 'None'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'cmake_clean_cache' from command line to 'False'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'cmake_clean_first' from command line to 'False'
+[1.275s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'cmake_force_configure' from command line to 'False'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'ament_cmake_args' from command line to 'None'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'catkin_cmake_args' from command line to 'None'
+[1.276s] Level 5:colcon.colcon_core.verb:set package 'multi_rtd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.276s] DEBUG:colcon.colcon_core.verb:Building package 'multi_rtd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd', 'merge_install': False, 'path': '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd', 'symlink_install': False, 'test_result_base': None}
+[1.295s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'cmake_target' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'cmake_clean_cache' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'cmake_clean_first' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'cmake_force_configure' from command line to 'False'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'ament_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'catkin_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'offboard_ibqr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.297s] DEBUG:colcon.colcon_core.verb:Building package 'offboard_ibqr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr', 'merge_install': False, 'path': '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/offboard_ibqr', 'symlink_install': False, 'test_result_base': None}
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[1.314s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.315s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com', 'merge_install': False, 'path': '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_args' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target' from command line to 'None'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[1.331s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.332s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.332s] DEBUG:colcon.colcon_core.verb:Building package 'ros1_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge', 'merge_install': False, 'path': '/home/navlab-tx2-4/px4_ros_com_ros2/src/ros1_bridge', 'symlink_install': False, 'test_result_base': None}
+[1.333s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.342s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_msgs' with build type 'ament_cmake'
+[1.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_msgs'
+[1.416s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.435s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd_interfaces' with build type 'ament_cmake'
+[1.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd_interfaces'
+[1.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.466s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs -- -j4 -l4
+[1.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces -- -j4 -l4
+[2.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces -- -j4 -l4
+[2.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces --target install -- -j4 -l4
+[4.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_rtd_interfaces)
+[4.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces --target install -- -j4 -l4
+[4.168s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces' for CMake module files
+[4.172s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces' for CMake config files
+[4.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd_interfaces', 'cmake_prefix_path')
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/cmake_prefix_path.ps1'
+[4.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/cmake_prefix_path.dsv'
+[4.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/cmake_prefix_path.sh'
+[4.193s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib'
+[4.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd_interfaces', 'ld_library_path_lib')
+[4.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/ld_library_path_lib.ps1'
+[4.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/ld_library_path_lib.dsv'
+[4.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/ld_library_path_lib.sh'
+[4.202s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/bin'
+[4.202s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/pkgconfig/multi_rtd_interfaces.pc'
+[4.203s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages'
+[4.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd_interfaces', 'pythonpath')
+[4.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/pythonpath.ps1'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/pythonpath.dsv'
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/pythonpath.sh'
+[4.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.ps1'
+[4.221s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.dsv'
+[4.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.sh'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.bash'
+[4.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.zsh'
+[4.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/colcon-core/packages/multi_rtd_interfaces)
+[4.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_rtd_interfaces)
+[4.438s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces' for CMake module files
+[4.441s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces' for CMake config files
+[4.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd_interfaces', 'cmake_prefix_path')
+[4.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/cmake_prefix_path.ps1'
+[4.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/cmake_prefix_path.dsv'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/cmake_prefix_path.sh'
+[4.452s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib'
+[4.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd_interfaces', 'ld_library_path_lib')
+[4.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/ld_library_path_lib.ps1'
+[4.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/ld_library_path_lib.dsv'
+[4.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/ld_library_path_lib.sh'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/bin'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/pkgconfig/multi_rtd_interfaces.pc'
+[4.461s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages'
+[4.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd_interfaces', 'pythonpath')
+[4.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/pythonpath.ps1'
+[4.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/pythonpath.dsv'
+[4.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/hook/pythonpath.sh'
+[4.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.ps1'
+[4.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.dsv'
+[4.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.sh'
+[4.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.bash'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.zsh'
+[4.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/colcon-core/packages/multi_rtd_interfaces)
+[4.482s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd' with build type 'ament_python'
+[4.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd', 'ament_prefix_path')
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/hook/ament_prefix_path.ps1'
+[4.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/hook/ament_prefix_path.dsv'
+[4.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/hook/ament_prefix_path.sh'
+[4.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.508s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[5.639s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd'
+[5.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.654s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[5.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs -- -j4 -l4
+[5.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/multi_rtd build --build-base /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build install --prefix /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd --record /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log --single-version-externally-managed
+[7.234s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd' for CMake module files
+[7.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/multi_rtd build --build-base /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/build install --prefix /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd --record /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd/install.log --single-version-externally-managed
+[7.238s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd' for CMake config files
+[7.243s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib'
+[7.243s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/bin'
+[7.244s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/pkgconfig/multi_rtd.pc'
+[7.244s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages'
+[7.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_rtd', 'pythonpath')
+[7.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/hook/pythonpath.ps1'
+[7.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/hook/pythonpath.dsv'
+[7.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/hook/pythonpath.sh'
+[7.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_rtd)
+[7.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/package.ps1'
+[7.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/package.dsv'
+[7.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/package.sh'
+[7.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/package.bash'
+[7.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/multi_rtd/package.zsh'
+[7.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/share/colcon-core/packages/multi_rtd)
+[21.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs --target install -- -j4 -l4
+[27.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[27.876s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs' for CMake module files
+[27.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs --target install -- -j4 -l4
+[27.881s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs' for CMake config files
+[27.932s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[27.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[27.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[27.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[27.942s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib'
+[27.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[27.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[27.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[27.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[27.951s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/bin'
+[27.952s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[27.952s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages'
+[27.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[27.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[27.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[27.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[27.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.ps1'
+[27.966s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.dsv'
+[27.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.sh'
+[27.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.bash'
+[27.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.zsh'
+[27.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[44.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[44.798s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs' for CMake module files
+[44.801s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs' for CMake config files
+[44.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[44.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[44.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[44.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[44.864s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib'
+[44.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[44.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[44.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[44.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[44.871s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/bin'
+[44.871s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[44.872s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages'
+[44.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'pythonpath')
+[44.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/pythonpath.ps1'
+[44.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/pythonpath.dsv'
+[44.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/hook/pythonpath.sh'
+[44.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.ps1'
+[44.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.dsv'
+[44.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.sh'
+[44.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.bash'
+[44.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/px4_msgs/package.zsh'
+[44.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[44.892s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/offboard_ibqr' with build type 'ament_cmake'
+[44.893s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/offboard_ibqr'
+[44.896s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.896s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[44.911s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[44.929s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_ros_com' with build type 'ament_cmake'
+[44.930s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_ros_com'
+[44.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[44.950s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[44.965s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/ros1_bridge' with build type 'ament_cmake'
+[44.967s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/navlab-tx2-4/px4_ros_com_ros2/src/ros1_bridge'
+[44.972s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.972s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[44.985s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[45.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr -- -j4 -l4
+[45.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[45.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge -- -j4 -l4
+[45.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge -- -j4 -l4
+[45.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge --target install -- -j4 -l4
+[45.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com -- -j4 -l4
+[45.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[45.740s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge' for CMake module files
+[45.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib PYTHONPATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge --target install -- -j4 -l4
+[45.747s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge' for CMake config files
+[45.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[45.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[45.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[45.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[45.760s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/bin'
+[45.761s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[45.761s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/lib/python3.6/site-packages'
+[45.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[45.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[45.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.sh'
+[45.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.bash'
+[45.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[45.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[45.882s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[45.887s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge' for CMake module files
+[45.891s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge' for CMake config files
+[45.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[45.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[45.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[45.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[45.904s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/bin'
+[45.904s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[45.905s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/lib/python3.6/site-packages'
+[45.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[45.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[45.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.sh'
+[45.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.bash'
+[45.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[45.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[46.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com --target install -- -j4 -l4
+[47.445s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[47.451s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com' for CMake module files
+[47.455s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com' for CMake config files
+[47.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[47.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[47.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_ros_com --target install -- -j4 -l4
+[47.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[47.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[47.472s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib'
+[47.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[47.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[47.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[47.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[47.482s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin'
+[47.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'path')
+[47.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/path.ps1'
+[47.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/path.dsv'
+[47.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/path.sh'
+[47.490s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[47.491s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/python3.6/site-packages'
+[47.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[47.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[47.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.sh'
+[47.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.bash'
+[47.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[47.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[48.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[48.556s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com' for CMake module files
+[48.560s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com' for CMake config files
+[48.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[48.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[48.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[48.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[48.573s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib'
+[48.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[48.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[48.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[48.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[48.581s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/bin'
+[48.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'path')
+[48.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/path.ps1'
+[48.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/path.dsv'
+[48.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/hook/path.sh'
+[48.592s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[48.592s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib/python3.6/site-packages'
+[48.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[48.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[48.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.sh'
+[48.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.bash'
+[48.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[48.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[72.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr -- -j4 -l4
+[72.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr --target install -- -j4 -l4
+[73.128s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(offboard_ibqr)
+[73.133s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr' for CMake module files
+[73.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr' returned '0': CMAKE_PREFIX_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs:/home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com:/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent LD_LIBRARY_PATH=/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_msgs/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/px4_ros_com/lib:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/offboard_ibqr --target install -- -j4 -l4
+[73.139s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr' for CMake config files
+[73.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('offboard_ibqr', 'cmake_prefix_path')
+[73.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/hook/cmake_prefix_path.ps1'
+[73.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/hook/cmake_prefix_path.dsv'
+[73.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/hook/cmake_prefix_path.sh'
+[73.150s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib'
+[73.151s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/bin'
+[73.151s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/pkgconfig/offboard_ibqr.pc'
+[73.151s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/python3.6/site-packages'
+[73.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.ps1'
+[73.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.dsv'
+[73.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.sh'
+[73.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.bash'
+[73.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.zsh'
+[73.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/colcon-core/packages/offboard_ibqr)
+[73.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(offboard_ibqr)
+[73.286s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr' for CMake module files
+[73.289s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr' for CMake config files
+[73.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('offboard_ibqr', 'cmake_prefix_path')
+[73.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/hook/cmake_prefix_path.ps1'
+[73.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/hook/cmake_prefix_path.dsv'
+[73.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/hook/cmake_prefix_path.sh'
+[73.300s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib'
+[73.301s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/bin'
+[73.301s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/pkgconfig/offboard_ibqr.pc'
+[73.301s] Level 1:colcon.colcon_core.environment:checking '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/lib/python3.6/site-packages'
+[73.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.ps1'
+[73.306s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.dsv'
+[73.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.sh'
+[73.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.bash'
+[73.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/offboard_ibqr/package.zsh'
+[73.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navlab-tx2-4/px4_ros_com_ros2/install/offboard_ibqr/share/colcon-core/packages/offboard_ibqr)
+[73.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[73.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[73.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[73.322s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[73.353s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[73.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[73.354s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[73.746s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[73.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navlab-tx2-4/px4_ros_com_ros2/install/local_setup.ps1'
+[73.765s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/navlab-tx2-4/px4_ros_com_ros2/install/_local_setup_util_ps1.py'
+[73.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navlab-tx2-4/px4_ros_com_ros2/install/setup.ps1'
+[73.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navlab-tx2-4/px4_ros_com_ros2/install/local_setup.sh'
+[73.793s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/navlab-tx2-4/px4_ros_com_ros2/install/_local_setup_util_sh.py'
+[73.795s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navlab-tx2-4/px4_ros_com_ros2/install/setup.sh'
+[73.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navlab-tx2-4/px4_ros_com_ros2/install/local_setup.bash'
+[73.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navlab-tx2-4/px4_ros_com_ros2/install/setup.bash'
+[73.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navlab-tx2-4/px4_ros_com_ros2/install/local_setup.zsh'
+[73.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navlab-tx2-4/px4_ros_com_ros2/install/setup.zsh'

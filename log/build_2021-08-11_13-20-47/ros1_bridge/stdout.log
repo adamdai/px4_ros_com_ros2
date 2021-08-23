@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found rmw: 0.8.1 (/opt/ros/eloquent/share/rmw/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'roscpp'
+--   No package 'roscpp' found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/navlab-tx2-4/px4_ros_com_ros2/build/ros1_bridge
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ament_index/resource_index/package_run_dependencies/ros1_bridge
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ament_index/resource_index/parent_prefix_path/ros1_bridge
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/environment/path.sh
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/environment/path.dsv
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/local_setup.bash
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/local_setup.sh
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/local_setup.zsh
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/local_setup.dsv
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.dsv
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ament_index/resource_index/packages/ros1_bridge
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_package.cmake
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_interface_packages.cmake
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig.cmake
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig-version.cmake
+-- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/ros1_bridge/share/ros1_bridge/package.xml

@@ -1,0 +1,4 @@
+make[1]: *** [CMakeFiles/px4_msgs__cpp.dir/all] Interrupt
+make[2]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Interrupt
+make: *** [all] Interrupt

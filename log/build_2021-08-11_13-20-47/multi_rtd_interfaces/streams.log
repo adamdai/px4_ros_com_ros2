@@ -1,0 +1,198 @@
+[0.088s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd_interfaces -DCMAKE_INSTALL_PREFIX=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces
+[0.411s] -- The C compiler identification is GNU 7.5.0
+[0.659s] -- The CXX compiler identification is GNU 7.5.0
+[0.695s] -- Check for working C compiler: /usr/bin/cc
+[0.904s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.907s] -- Detecting C compiler ABI info
+[1.116s] -- Detecting C compiler ABI info - done
+[1.133s] -- Detecting C compile features
+[1.780s] -- Detecting C compile features - done
+[1.792s] -- Check for working CXX compiler: /usr/bin/c++
+[2.039s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.040s] -- Detecting CXX compiler ABI info
+[2.278s] -- Detecting CXX compiler ABI info - done
+[2.293s] -- Detecting CXX compile features
+[3.263s] -- Detecting CXX compile features - done
+[3.274s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[3.390s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[3.391s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.351s] -- Found trajectory_msgs: 0.8.1 (/opt/ros/eloquent/share/trajectory_msgs/cmake)
+[4.416s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[4.671s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[5.019s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[5.373s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[5.466s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[5.832s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[6.663s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[6.846s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[7.938s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[8.044s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[8.052s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[8.168s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[8.169s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.170s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[8.170s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[8.262s] -- Found PythonExtra: .so  
+[8.979s] -- Added test 'lint_cmake' to check CMake code style
+[8.984s] -- Added test 'xmllint' to check XML markup files
+[9.010s] -- Configuring done
+[9.550s] -- Generating done
+[9.562s] -- Build files have been written to: /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces
+[9.580s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/multi_rtd_interfaces -DCMAKE_INSTALL_PREFIX=/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces
+[9.590s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces -- -j4 -l4
+[9.732s] [35m[1mScanning dependencies of target multi_rtd_interfaces__cpp[0m
+[9.734s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.774s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.053s] [  6%] Built target multi_rtd_interfaces__cpp
+[11.099s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.129s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[11.149s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_generator_c[0m
+[11.227s] [ 17%] [32mBuilding C object CMakeFiles/multi_rtd_interfaces__rosidl_generator_c.dir/rosidl_generator_c/multi_rtd_interfaces/msg/robot_trajectory__functions.c.o[0m
+[11.392s] [ 20%] [32m[1mLinking C shared library libmulti_rtd_interfaces__rosidl_generator_c.so[0m
+[11.556s] [ 20%] Built target multi_rtd_interfaces__rosidl_generator_c
+[11.597s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.464s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[12.473s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_introspection_cpp[0m
+[12.534s] [ 27%] [32mBuilding CXX object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_rtd_interfaces/msg/dds_fastrtps/robot_trajectory__type_support.cpp.o[0m
+[12.541s] [ 31%] [32mBuilding CXX object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_rtd_interfaces/msg/robot_trajectory__type_support.cpp.o[0m
+[12.973s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_introspection_c[0m
+[13.037s] [ 34%] [32mBuilding C object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_rtd_interfaces/msg/robot_trajectory__type_support.c.o[0m
+[13.147s] [ 37%] [32m[1mLinking C shared library libmulti_rtd_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.297s] [ 37%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_c
+[13.608s] [ 41%] [32m[1mLinking CXX shared library libmulti_rtd_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[13.862s] [ 41%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_cpp
+[13.998s] [ 44%] [32m[1mLinking CXX shared library libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.292s] [ 44%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.332s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.333s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.473s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_cpp[0m
+[15.534s] [ 55%] [32mBuilding CXX object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_rtd_interfaces/msg/robot_trajectory__type_support.cpp.o[0m
+[15.623s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c[0m
+[15.691s] [ 58%] [32mBuilding CXX object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_rtd_interfaces/msg/robot_trajectory__type_support_c.cpp.o[0m
+[16.793s] [ 62%] [32m[1mLinking CXX shared library libmulti_rtd_interfaces__rosidl_typesupport_cpp.so[0m
+[16.813s] [ 65%] [32m[1mLinking CXX shared library libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[17.148s] [ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_cpp
+[17.155s] [ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c
+[17.193s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.303s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_c[0m
+[18.352s] [ 72%] [32mBuilding CXX object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_rtd_interfaces/msg/robot_trajectory__type_support.cpp.o[0m
+[18.442s] [ 75%] [32m[1mLinking CXX shared library libmulti_rtd_interfaces__rosidl_typesupport_c.so[0m
+[18.648s] [ 75%] Built target multi_rtd_interfaces__rosidl_typesupport_c
+[18.680s] [35m[1mScanning dependencies of target multi_rtd_interfaces[0m
+[18.715s] [ 75%] Built target multi_rtd_interfaces
+[18.748s] [35m[1mScanning dependencies of target multi_rtd_interfaces__py[0m
+[18.785s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[20.562s] [ 79%] Built target multi_rtd_interfaces__py
+[20.598s] [35m[1mScanning dependencies of target multi_rtd_interfaces__python[0m
+[20.702s] [ 82%] [32mBuilding C object CMakeFiles/multi_rtd_interfaces__python.dir/rosidl_generator_py/multi_rtd_interfaces/msg/_robot_trajectory_s.c.o[0m
+[20.979s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/multi_rtd_interfaces/libmulti_rtd_interfaces__python.so[0m
+[21.229s] [ 86%] Built target multi_rtd_interfaces__python
+[21.264s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[21.266s] [35m[1mScanning dependencies of target multi_rtd_interfaces__rosidl_typesupport_c__pyext[0m
+[21.351s] [ 89%] [32mBuilding C object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_rtd_interfaces/_multi_rtd_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[21.366s] [ 93%] [32mBuilding C object CMakeFiles/multi_rtd_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_rtd_interfaces/_multi_rtd_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[21.587s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[21.597s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[22.010s] [100%] Built target multi_rtd_interfaces__rosidl_typesupport_c__pyext
+[22.032s] [100%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[22.081s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces -- -j4 -l4
+[22.291s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces --target install -- -j4 -l4
+[22.513s] [  3%] Built target multi_rtd_interfaces__cpp
+[22.561s] [ 13%] Built target multi_rtd_interfaces__rosidl_generator_c
+[22.674s] [ 24%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_c
+[22.729s] [ 34%] Built target multi_rtd_interfaces__rosidl_typesupport_introspection_cpp
+[22.733s] [ 44%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_cpp
+[22.866s] [ 55%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c
+[22.871s] [ 65%] Built target multi_rtd_interfaces__rosidl_typesupport_cpp
+[22.993s] [ 75%] Built target multi_rtd_interfaces__rosidl_typesupport_c
+[23.075s] [ 75%] Built target multi_rtd_interfaces
+[23.167s] [ 79%] Built target multi_rtd_interfaces__py
+[23.344s] [ 86%] Built target multi_rtd_interfaces__python
+[23.674s] [ 93%] Built target multi_rtd_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.678s] [100%] Built target multi_rtd_interfaces__rosidl_typesupport_c__pyext
+[23.828s] [36mInstall the project...[0m
+[23.873s] -- Install configuration: ""
+[23.874s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/rosidl_interfaces/multi_rtd_interfaces
+[23.877s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces
+[23.878s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg
+[23.879s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__struct.hpp
+[23.880s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__traits.hpp
+[23.880s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory.hpp
+[23.882s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces
+[23.882s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg
+[23.883s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory.h
+[23.884s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__struct.h
+[23.884s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__type_support.h
+[23.886s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_generator_c__visibility_control.h
+[23.886s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__functions.c
+[23.887s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__functions.h
+[23.888s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/library_path.sh
+[23.888s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/library_path.dsv
+[23.889s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_generator_c.so
+[23.892s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_generator_c.so" to ""
+[23.893s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_c.so
+[23.896s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_c.so" to ""
+[23.897s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_cpp.so
+[23.898s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_cpp.so" to ""
+[23.899s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces
+[23.899s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg
+[23.900s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__type_support.c
+[23.902s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.902s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_introspection_c.h
+[23.903s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_introspection_c.so
+[23.904s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[23.905s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces
+[23.905s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg
+[23.907s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[23.907s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__type_support.cpp
+[23.908s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_introspection_cpp.so
+[23.910s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[23.910s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces
+[23.911s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg
+[23.912s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.914s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_fastrtps_c.h
+[23.915s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_c.so
+[23.916s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[23.917s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces
+[23.918s] -- Up-to-date: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg
+[23.918s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/robot_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[23.919s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.920s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/include/multi_rtd_interfaces/msg/dds_fastrtps
+[23.920s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[23.921s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.922s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/pythonpath.sh
+[23.923s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/pythonpath.dsv
+[23.924s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/__init__.py
+[24.045s] Compiling '/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/__init__.py'...
+[24.086s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg
+[24.087s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg/_robot_trajectory_s.c
+[24.088s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg/_robot_trajectory.py
+[24.088s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/msg/__init__.py
+[24.089s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[24.090s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[24.092s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[24.094s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/python3.6/site-packages/multi_rtd_interfaces/multi_rtd_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[24.095s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__python.so
+[24.096s] -- Set runtime path of "/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/lib/libmulti_rtd_interfaces__python.so" to ""
+[24.097s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/msg/RobotTrajectory.idl
+[24.102s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/msg/RobotTrajectory.msg
+[24.103s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/package_run_dependencies/multi_rtd_interfaces
+[24.104s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/parent_prefix_path/multi_rtd_interfaces
+[24.105s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/ament_prefix_path.sh
+[24.106s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/ament_prefix_path.dsv
+[24.106s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/path.sh
+[24.106s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/environment/path.dsv
+[24.107s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.bash
+[24.107s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.sh
+[24.109s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.zsh
+[24.110s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/local_setup.dsv
+[24.111s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.dsv
+[24.113s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/ament_index/resource_index/packages/multi_rtd_interfaces
+[24.115s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/rosidl_cmake-extras.cmake
+[24.116s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.118s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.119s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[24.120s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/multi_rtd_interfacesConfig.cmake
+[24.121s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/cmake/multi_rtd_interfacesConfig-version.cmake
+[24.121s] -- Installing: /home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd_interfaces/share/multi_rtd_interfaces/package.xml
+[24.127s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/multi_rtd_interfaces --target install -- -j4 -l4

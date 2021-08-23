@@ -1,0 +1,25 @@
+[0.127s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs -- -j4 -l4
+[1.683s] [  0%] Built target px4_msgs__cpp
+[1.792s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[2.029s] [ 25%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[2.092s] [ 37%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[2.137s] [ 50%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[2.461s] [ 63%] Built target px4_msgs__rosidl_typesupport_cpp
+[2.498s] [ 75%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[2.758s] [ 88%] Built target px4_msgs__rosidl_typesupport_c
+[2.842s] [ 88%] Built target px4_msgs
+[2.955s] [ 88%] Built target px4_msgs__py
+[3.517s] [100%] Built target px4_msgs__python
+[3.689s] [100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.696s] [100%] Built target px4_msgs__rosidl_typesupport_c__pyext
+[4.423s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs -- -j4 -l4
+[21.549s] Invoking command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs --target install -- -j4 -l4
+[22.711s] CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/px4_msgs__cpp.dir/all' failed
+[22.712s] make[1]: *** [CMakeFiles/px4_msgs__cpp.dir/all] Interrupt
+[22.713s] CMakeFiles/px4_msgs__rosidl_generator_c.dir/build.make:9281: recipe for target 'CMakeFiles/px4_msgs__rosidl_generator_c.dir/depend' failed
+[22.713s] make[2]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/depend] Interrupt
+[22.714s] CMakeFiles/Makefile2:283: recipe for target 'CMakeFiles/px4_msgs__rosidl_generator_c.dir/all' failed
+[22.714s] make[1]: *** [CMakeFiles/px4_msgs__rosidl_generator_c.dir/all] Interrupt
+[22.715s] Makefile:140: recipe for target 'all' failed
+[22.715s] make: *** [all] Interrupt
+[22.719s] Invoked command in '/home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/navlab-tx2-4/px4_ros_com_ros2/install/multi_rtd:/opt/ros/eloquent /usr/bin/cmake --build /home/navlab-tx2-4/px4_ros_com_ros2/build/px4_msgs --target install -- -j4 -l4

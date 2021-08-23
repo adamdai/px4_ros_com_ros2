@@ -1,0 +1,4 @@
+[console_scripts]
+multi_planner = multi_rtd.multi_planner:main
+simple_planner = multi_rtd.simple_planner:main
+

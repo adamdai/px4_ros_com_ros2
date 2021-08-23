@@ -1,0 +1,16 @@
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/launch/robot.launch.py
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/ament_index/resource_index/package_run_dependencies/bringup
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/ament_index/resource_index/parent_prefix_path/bringup
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/environment/ament_prefix_path.sh
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/environment/ament_prefix_path.dsv
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/environment/path.sh
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/environment/path.dsv
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/local_setup.bash
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/local_setup.sh
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/local_setup.zsh
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/local_setup.dsv
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/package.dsv
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/ament_index/resource_index/packages/bringup
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/cmake/bringupConfig.cmake
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/cmake/bringupConfig-version.cmake
+/home/navlab-tx2-4/px4_ros_com_ros2/install/bringup/share/bringup/package.xml

@@ -1,0 +1,4 @@
+[01m[K/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/offboard_ibqr/src/offboard/offboard_control.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint() const[m[K’:
+[01m[K/home/navlab-tx2-4/px4_ros_com_ros2/src/px4_multi_agent_planning/offboard_ibqr/src/offboard/offboard_control.cpp:291:120:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+   if ( (timer_callback_counter % (TRAJ_TIME_INTERVAL/period.count()) == 0) && ((traj_index < max_index) && ([01;35m[Ktraj_index >= 0[m[K)) ) // traj_index will only be less than 0 if no trajectory has ever been received
+                                                                                                             [01;35m[K~~~~~~~~~~~^~~~[m[K
